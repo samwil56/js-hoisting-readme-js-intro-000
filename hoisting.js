@@ -18,7 +18,8 @@ function crazy() {
 
   }
 }
-thisIsCrazy()
+var one = crazy()
+var two = one()
 
 function sayMyName() {
   // fix the code in here:
